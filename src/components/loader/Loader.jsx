@@ -1,16 +1,17 @@
-import { Circles } from 'react-loader-spinner'
+import { MagnifyingGlass } from 'react-loader-spinner'
 
 export const LoaderSpiner = () =>
 {
     return(
-        <Circles
-  height="80"
-  width="80"
-  color="#4fa94d"
-  ariaLabel="circles-loading"
-  wrapperStyle={{}}
-  wrapperClass=""
-  visible={true}
+        <MagnifyingGlass
+        visible={true}
+        height="80"
+        width="80"
+        ariaLabel="MagnifyingGlass-loading"
+        wrapperStyle={{}}
+        wrapperClass="MagnifyingGlass-wrapper"
+        glassColor = '#c0efff'
+        color = '#e15b64'
 />
     )
 }
