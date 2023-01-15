@@ -39,7 +39,7 @@ useEffect(() => {
       setLoading(false);
     }}
     getApp()
-}, [name, page])
+}, [error, name, page])
 
 
 const handleFormSubmit = e => {
