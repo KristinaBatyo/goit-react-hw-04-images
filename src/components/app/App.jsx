@@ -19,7 +19,7 @@ const [largeImg, setLargeImg] = useState('')
 const [showModal, setShowModal] = useState(false)
 
 useEffect(() => {
-  if (name === '' || !page) {
+  if (name === '' || !page || error) {
     return;
   }
     async function getApp(){
